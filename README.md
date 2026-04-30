@@ -6,7 +6,7 @@
 ### 📫 Contato & Redes Sociais
 [![LinkedIn](https://www.linkedin.com/in/luis-plinio-corn%C3%A9lio-mota-84a438363/)
 [![E-mail](luispliniocmota2@gmail.com)
-[![Currículo]()
+[![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](./CV_/cv_plinio.pdf)
  
 ---
  
