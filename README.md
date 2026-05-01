@@ -30,7 +30,7 @@ Atualmente cursando o 1º período de Ciência da Computação na Universidade C
 #### 🗃️ Programação de computadores
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **Algoritmo de auditoria de dados** | programa que analise a consistência de dados financeiros, utilizando escopo global/local para parâmetros de segurança e lógica condicional para detecção de anomalias. | [Ver Projeto](./projeto-banco-dados/) |
+| **Algoritmo de auditoria de dados** | programa que analise a consistência de dados financeiros, utilizando escopo global/local para parâmetros de segurança e lógica condicional para detecção de anomalias. | [Ver Projeto](./ex1/) |
 | :--- | :--- | :---: |
 | **Engenharia de soluções lógicas** | Fluxograma feito no papél em contexto hospitalar | [Ver Projeto](./projeto-banco-dados/) |
 | :--- | :--- | :---: |
