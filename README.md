@@ -12,9 +12,8 @@
 ### 👨‍💻 Sobre
 Atualmente cursando o 1º período de Ciência da Computação na Universidade Cidade de São Paulo. Sou apaixonado por resolver problemas através da tecnologia e possuo foco em [Área de Interesse - ex: Desenvolvimento Backend / Análise de Dados].
  
-* **Habilidades Técnicas:** [Ex: Python, Java, SQL, AWS, Docker].
-* **Habilidades Socioemocionais:** Trabalho em equipe, comunicação assertiva e pensamento crítico.
-* **Experiência/Projetos Relevantes:** Atuei em [Projeto de Iniciação Científica/Estágio] onde desenvolvi [resultado principal].
+* **Habilidades Técnicas:** Python.
+* **Habilidades Socioemocionais:** Pontualidade, boa comunicação e escrita
  
 ---
  
