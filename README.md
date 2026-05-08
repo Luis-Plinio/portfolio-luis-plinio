@@ -42,7 +42,7 @@ Atualmente cursando o 1º período de Ciência da Computação na Universidade C
 | :--- | :--- | :---: |
 | **Desenhando emojis com dados** | programa criador de emojis, matrizes musicais e integrador de playlists de imagens | [Ver Projeto](./ex6/) |
 | :--- | :--- | :---: | 
-| **Sistema de Auditoria de Recursos Corporativos** | sistema que calcula o financeamento de diferentes setores de uma empresa | [Ver Projeto](./projeto_sistema_de_auditoria/) |
+| **Sistema de Auditoria de Recursos Corporativos** | sistema que calcula o financeamento de diferentes setores de uma empresa | [Ver Projeto](./projeto-sistema-de-auditoria/) |
 | :--- | :--- | :---: | 
 
 ---
