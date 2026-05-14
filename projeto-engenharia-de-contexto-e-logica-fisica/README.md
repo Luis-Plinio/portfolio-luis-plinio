@@ -1,67 +1,37 @@
-Aqui está uma proposta de README.md unificando os dois sistemas sob o tema de Gestão e Segurança em Microclimas Urbanos (UNICID).
+# 🧰 Coleção de Mini-Sistemas em Python
 
-🏢 Monitoramento e Segurança Urbana: UNICID
-Este repositório contém dois sistemas desenvolvidos em Python voltados para a análise ambiental e segurança predial no campus da UNICID (Zona Leste, SP). O projeto une métricas de qualidade do ar e conforto térmico com algoritmos de tomada de decisão para evacuação de emergência.
+Este projeto consiste em um script Python que agrupa quatro ferramentas utilitárias independentes. Cada função foi projetada para resolver um problema cotidiano específico, abrangendo desde cálculos comerciais até simulações financeiras e análises de dados básicos.
 
-📊 Parte 1: Análise de Microclima Urbano
-Este módulo processa dados ambientais coletados manualmente em pontos estratégicos para calcular o índice de bem-estar da população flutuante.
+---
 
-Funcionalidades
-Classificação IQA (Índice de Qualidade do Ar): Baseado nos parâmetros da CETESB, classifica o ar em faixas de Boa a Péssima.
+## 🚀 Funcionalidades
 
-Cálculo de Nota de Conforto (0 a 10): Uma fórmula ponderada que avalia:
+O script é dividido em quatro módulos principais, executados sequencialmente:
 
-Temperatura: Desvios em relação à temperatura ideal de 22°C.
+### 1. Processador de Vendas (`processar_vendas`)
+Um sistema de caixa simples que processa a compra de múltiplos produtos.
+*   **O que faz:** Solicita a quantidade de produtos diferentes, lê o nome, preço e quantidade de cada item, e calcula o valor total.
+*   **Regra de Desconto:** 
+    *   Compras acima de **R$ 500,00** recebem 10% de desconto.
+    *   Compras acima de **R$ 200,00** recebem 5% de desconto.
+*   **Validação:** Impede o registro de itens com preços ou quantidades negativas/zeradas.
 
-Umidade: Faixa ideal entre 50% e 70%.
+### 2. Analisador de Clima Semanal (`analisar_clima`)
+Ferramenta meteorológica básica para monitoramento de temperaturas ao longo de uma semana (7 dias).
+*   **O que faz:** Calcula e exibe a temperatura média da semana e conta quantos dias registraram temperaturas acima de **35°C**.
+*   **Sistema de Alerta:** Dispara um aviso de perigo caso registre temperaturas extremas (acima de **45°C** ou abaixo de **-5°C**).
 
-IQA: Penalização proporcional à poluição.
+### 3. Sistema de Notas Escolares (`sistema_notas_turma`)
+Utilitário para professores gerenciarem as notas de uma turma.
+*   **O que faz:** Solicita a quantidade de alunos, lê os nomes e duas notas para cada um, calculando a média aritmética.
+*   **Critérios de Avaliação:**
+    *   **Aprovado:** Média >= 7.0
+    *   **Recuperação:** Média >= 5.0 e < 7.0
+    *   **Reprovado:** Média < 5.0
 
-Análise Comparativa: Avalia os microclimas do Canteiro Arborizado, Terminal de Ônibus e dependências da Faculdade em horários distintos (Manhã e Tarde).
+### 4. Simulador de Poupança e Investimento (`simulador_poupanca`)
+Calculadora financeira de juros compostos com suporte a aportes mensais.
+*   **O que faz:** Projeta o crescimento de um investimento inicial com base em uma taxa de juros mensal definida pelo usuário ao longo de um determinado período (em meses). Permite a adição de novos depósitos mês a mês.
+*   **Gamificação (Meta):** Emite uma mensagem de parabéns no exato mês em que o saldo ultrapassa a marca de **R$ 10.000,00**.
 
-🏃 Parte 2: Simulador de Evacuação Espacial
-Um algoritmo de simulação que modela a trajetória de um agente em uma situação de emergência, partindo do primeiro andar da instituição até as saídas de segurança.
-
-Funcionalidades
-Mapeamento de Nós: O trajeto é dividido em pontos reais (Sala de Aula, Corredor, Escadas e Térreo).
-
-Gestão de Recursos e Energia: O agente possui uma barra de energia (100) e um inventário. Obstáculos como "fumaça" exigem o uso de itens (ex: garrafa de água) e consomem mais energia.
-
-Lógica de Tomada de Decisão:
-
-Ao chegar no térreo, o sistema avalia três saídas possíveis.
-
-Um cálculo de Score de Segurança é realizado em tempo real para escolher a rota mais eficiente (Avenida Principal, Rua Lateral ou Lanchonete).
-
-Diferentes resultados possíveis: Evacuação bem-sucedida ou falha por exaustão.
-
-🛠️ Tecnologias Utilizadas
-Linguagem: Python 3.10+
-
-Recursos Lógicos:
-
-match/case para classificação de faixas.
-
-while e if aninhados para lógica de navegação.
-
-random e time para simulação de eventos e dinamismo.
-
-📂 Como Executar
-Certifique-se de ter o Python instalado.
-
-Clone o repositório ou copie os códigos.
-
-Execute o script da Parte 1 para ver as estatísticas ambientais:
-
-Bash
-python analise_clima.py
-Execute o script da Parte 2 para iniciar a simulação de emergência:
-
-Bash
-python simulador_evacuacao.py
-📝 Referências
-IQA: Faixas de referência fornecidas pela CETESB (Companhia Ambiental do Estado de São Paulo).
-
-Localização: Mapeamento físico baseado no 1º andar do campus UNICID.
-
-Nota: Este projeto possui fins educacionais e de simulação lógica de sistemas.
+---
