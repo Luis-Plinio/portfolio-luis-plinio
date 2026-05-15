@@ -32,17 +32,17 @@ Atualmente cursando o 1º período de Ciência da Computação na Universidade C
 | :--- | :--- | :---: |
 | **Algoritmo de auditoria de dados** | programa que analise a consistência de dados financeiros, utilizando escopo global/local para parâmetros de segurança e lógica condicional para detecção de anomalias. | [Ver Projeto](./projeto-o-algoritmo-de-auditoria-de-dados/) |
 | :--- | :--- | :---: |
-| **Engenharia de soluções lógicas** | Fluxograma feito no papél em contexto hospitalar | [Ver Projeto](./ex2/) |
+| **Engenharia de soluções lógicas** | Fluxograma feito no papél em contexto hospitalar | [Ver Projeto](./projeto-engenharia-de-solucoes-logicas/) |
 | :--- | :--- | :---: |
-| **Modularização** | Fluxograma e pseudocódigo feito a mão em contexto de vendas | [Ver Projeto](./ex3/) |
+| **Modularização** | Fluxograma e pseudocódigo feito a mão em contexto de vendas | [Ver Projeto](./projeto-modularização/) |
 | :--- | :--- | :---: |
-| **Traduzindo lógica para python** | programa que aplica vendas com descontos, calculo de média, calculo de qualidade do clima, calculo de valor poupança | [Ver Projeto](./ex4/) |
+| **Traduzindo lógica para python** | programa que aplica vendas com descontos, calculo de média, calculo de qualidade do clima, calculo de valor poupança | [Ver Projeto](./projeto-traduzindo-logica-para-python/) |
 | :--- | :--- | :---: |
-| **Engenharia de contexto e lógica física** | programa de analise de microclima local e navegação e ocupação espacial | [Ver Projeto](./ex5/) |
+| **Engenharia de contexto e lógica física** | programa de analise de microclima local e navegação e ocupação espacial | [Ver Projeto](./projeto-engenharia-de-contexto-e-logica-fisica/) |
 | :--- | :--- | :---: |
-| **Desenhando emojis com dados** | programa criador de emojis, matrizes musicais e integrador de playlists de imagens | [Ver Projeto](./ex6/) |
+| **Desenhando emojis com dados** | programa criador de emojis, matrizes musicais e integrador de playlists de imagens | [Ver Projeto](./projeto-desenhando-emojis-com-dados/) |
 | :--- | :--- | :---: | 
-| **Sistema de Auditoria de Recursos Corporativos** | sistema que calcula o financeamento de diferentes setores de uma empresa | [Ver Projeto](./ex7/) |
+| **Sistema de Auditoria de Recursos Corporativos** | sistema que calcula o financeamento de diferentes setores de uma empresa | [Ver Projeto](./projeto-sistema-de-auditoria/) |
 | :--- | :--- | :---: | 
 
 ---
